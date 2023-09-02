@@ -28,6 +28,7 @@ Instructions for how to run a simulation study comparing the self-written forest
 | File name    | Description |
 | :-------- | :------- |
 | dataset_friedmans_d10_s5_scalingfalse.xlsx  | contains data simulated from Friedman’s DGP |
+| pilot_tcodes.xlsx | contains tcodes (output from data_transformations.R) |
 
 ### Folders
 
