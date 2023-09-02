@@ -19,7 +19,7 @@ Instructions for how to run a simulation study comparing the self-written forest
 | parallel_get_grf.R  | includes an “add-on” function utilizing parallel computing  |
 | parallel_get_rf_gls.R  | includes an “add-on” function utilizing parallel computing  |
 | data_transformations.R   | obtains the results from the ADF-KPSS testing algorithm  |
-| data_transformation_functions.R  | contains the functions implementing the ADFKPSS testing algorithm|
+| data_transformation_functions.R  | contains the functions implementing the ADF-KPSS testing algorithm|
 | simulation_study.R   | runs simulation study including predictions and confidence intervals produced for Friedman’s DGP and exports csv files with results  |
 | simulation_studies_analysis.R   | obtains summary statistics based on the output from simulation_study.R  |
 
