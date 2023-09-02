@@ -1,1 +1,1 @@
-# predicting_inflation_with_generalized_random_forests
+# Predicting Inflation with Generalized Random Forests
