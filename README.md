@@ -48,7 +48,24 @@ The file named simulation_study.R runs a simulation study comparing self-written
 install.packages(c("openxlsx", "powerplus", "Matrix", "doParallel", "foreach", "readxl", "urca", "grf", "randomForest"))
 ```
 * Step 3: Open the file named simulation_study.R and set your working directory in line 4.
-* Step 4: Run the full script. 
+* Step 4: Run the full script.
+
+## Instructions to download and use my forest implementations
+* Step 1: Save the following files in a folder on your computer: get_grf.R, get_rf_gls.R, parallel_get_grf.R and parallel_get_rf_gls.R.
+* Step 2: Install packages for parallel computing and fast matrix inversions by running the following command in R:
+
+```R
+install.packages(c("powerplus", "Matrix", "doParallel", "foreach"))
+```
+* Step 3: Open an empty R script, set your working directory and load the functions into the global environment by running the following commands:
+
+```R
+source("get_rf_gls.R")
+source("parallel_get_grf.R")
+source("parallel_get_rf_gls.R")
+```
+Functions to obtain forest objects (get_grf() and get_rf_gls()) along with functions to obtain predictions from these forest objects (predict_grf() and predict_rf_gls()) are now loaded and ready for usage. Consult the respective scripts for details on function arguments and outputs. 
+
 
 ## References 
 Athey, S., Tibshirani, J., and Wager, S. (2019). Generalized Random Forests. The Annals of Statistics, 47:1148-1178.
