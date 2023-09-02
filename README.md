@@ -33,3 +33,15 @@
 | simulation_results_ci_regression_forest  | results from simulation_study.R are exported into this folder |
 | simulation_results_ci_llf | results from simulation_study.R are exported into this folder |
 | simulation_results_ci_rf_gls  | results from simulation_study.R are exported into this folder |
+
+## Instructions to run simulation study 
+The file named simulation_study.R runs a simulation study comparing self-written forest functions to established packages. To run the simulation study, complete the following steps. 
+
+* Step 1: Save all files of the repository in a folder on your computer.
+* Step 2: Install needed packages by running the following command in R:
+
+```R
+install.packages(c("openxlsx", "powerplus", "Matrix", "doParallel", "foreach", "readxl", "urca", "grf", "randomForest"))
+```
+* Step 3: Open the file named simulation_study.R and set your working directory in line 4.
+* Step 4: Run the full script. 
