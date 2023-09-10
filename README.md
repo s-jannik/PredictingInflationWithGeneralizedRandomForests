@@ -2,7 +2,7 @@
 
 This repository contains R code accompanying my master thesis titled Predicting Inflation with Generalized Random Forests. Beside various testing procedures, the repository contains self-written implementations from scratch of the standard Random Forest (Breiman, 2001) written in the Generalized Random Forest framework (Athey et. al., 2019), the Local Linear Forest (Friedberg et. al., 2021) and the RF-GLS for spatially dependent data (Saha et. al., 2021). 
 
-Instructions for how to run a simulation study comparing the self-written forest functions to established forest packages are found at the bottom of this README file, along with instructions for how to download and use the self-written forest functions separately. The script needed to obtain the main results of my thesis, main_script.R, is included in the repository, but is not runnable. That is because the macro-financial dataset used is currently not included in the repository, as it is an internal ECB dataset, which is not publicly available. 
+Instructions for how to run a simulation study comparing the self-written forest functions to established forest packages are found at the bottom of this README file, along with instructions for how to download and use the self-written forest functions separately. The script needed to obtain the main results of my thesis, main_script.R, is included in the repository, but is not runnable. That is because the macro-financial dataset used (which was provided to me by my second MSc thesis supervisor) is currently not included in the repository, as it is not straightforwardly publicly available. 
 
 ## Overview of scripts, data files and folders
 
